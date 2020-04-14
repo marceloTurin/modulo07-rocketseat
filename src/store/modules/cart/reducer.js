@@ -1,13 +1,23 @@
+import produce from 'immer';
+
 export default function cart(state = [], action) {
   switch (action.type) {
     case 'ADD_TO_CART':
-      return [
-        ...state,
-        {
-          ...action.product,
-          amount: 1,
-        },
-      ];
+      return produce(state, (draft) => {
+        // Veririca se existe um produto no array
+        const productIndex = draft.findIndex((p) => p.id === action.product.id);
+
+        // Se existir ele adiciona mais um na qtd do produto
+        // Se não, adiciona o novo produto
+        if (productIndex >= 0) {
+          draft[productIndex].amount += 1;
+        } else {
+          draft.push({
+            ...action.product,
+            amount: 1,
+          });
+        }
+      });
     default:
       return state;
   }
