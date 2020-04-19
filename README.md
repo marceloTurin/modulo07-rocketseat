@@ -7,7 +7,7 @@
 </h1>
 
 # Indice
-  - [Sobre](#-sobre)
+  - [Sobre](#-:pushpin:-sobre)
   - [Tecnologias utilizadas](#-tecnologias-utilizadas)
   - [Como baixar o projeto](#-como-baixar-o-projeto)
 ---
