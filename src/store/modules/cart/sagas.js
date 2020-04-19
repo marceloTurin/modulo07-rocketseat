@@ -38,7 +38,7 @@ function* addToCart({ id }) {
     yield put(addToCartSuccess(data));
 
     // muda a rota do usuário
-    history.push('/cart');
+    // history.push('/cart');
   }
 }
 
