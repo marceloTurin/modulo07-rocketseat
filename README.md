@@ -7,7 +7,7 @@
 </h1>
 
 ## :pushpin: Sobre
-  O projeto **Rocketshoes** é um e-commerce desenvolvido no curso **Bootcamp GoStack** com o intuito de colocar em pratica durante o curso sobre **REACT** e arquitetura **REDUX**.
+  O projeto **Rocketshoes** é um e-commerce desenvolvido no curso **Bootcamp GoStack** com o intuito de colocar em pratica durante o curso sobre **REACT** e arquitetura **REDUX** utilizando o **REACT HOOKS**
 
 ---
 
@@ -16,6 +16,7 @@
 - [ReactJS](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Redux Saga](https://redux-saga.js.org/)
+- [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 - [Immer](https://github.com/immerjs/immer)
 - [Axios](https://github.com/axios/axios)
 - [Styled components](https://styled-components.com/)
