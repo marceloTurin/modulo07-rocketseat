@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <img src="src/assets/gif/rocketshoes.gif">
+  <img src="src/assets/gif/Rocketshoes.gif">
 </h1>
 
 ## :pushpin: Sobre
