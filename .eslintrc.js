@@ -32,6 +32,8 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
-    'no-console': ["error", {allow: ["tron"]}]
+    'no-console': ["error", {allow: ["tron"]}],
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-one-expression-per-line': 'off'
   },
 };
